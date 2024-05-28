@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript HTML Elements</h1>
+    <h2>The onclick Attribute</h2>
+    <h2 id="clickable" onclick="changeText(this)">Click on the text!</h2>
+    <script>
+      function changeText(element) {
+        element.innerHTML = "Changed";
+      }
+    </script>
+  </body>
+</html>
